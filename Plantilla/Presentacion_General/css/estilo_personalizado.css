@@ -1,0 +1,481 @@
+/* Estilos del Css: Del menu Azul en General */
+body {
+    margin: 0;
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #858796;
+    text-align: left;
+    background-color: #fff;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+
+.bg-gradient-primary {
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%);
+    background-size: cover;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.img-fluid{
+    max-width: 65%;
+    height: auto;
+    margin-right: 2%;
+    margin: auto;
+}
+/* Estilos del Css: Nombre del usuario, foto */
+.text-gray-600 {
+    color: #858796!important;
+}
+.mr-2, .mx-2 {
+    margin-right: .6rem!important;
+}
+
+.small, small {
+    font-size: 90%;
+    font-weight: 400;
+}
+.sidebar .nav-item .nav-link .img-profile, .topbar .nav-item .nav-link .img-profile {
+    height: 2.6rem;
+    width: 3rem;
+}
+.sidebar #sidebarToggle {
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+
+/* Parte de Servicio de Entrada */
+
+.card-header-Registro{
+    background-color: #f8f9fc;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: .75rem 1.25rem;
+    position: relative;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.card-header-Registro>.card-tools [data-toggle=tooltip]{
+    position: relative;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+
+.btn-tool {
+    background: 0 0;
+    color: #adb5bd;
+    font-size: .875rem;
+    margin: -.75rem 0;
+    padding: .25rem .5rem;
+}
+
+.card-title {
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card-header-Registro>.card-tools {
+    float: right;
+    margin-right: -.625rem;
+}
+
+
+/* Estilos de Busca Cliente esto es en Nuevo Servicio*/
+
+#botonBuscarCliente{
+    margin-top: 4%;
+}
+
+#telefonos{
+    margin-top: 4%;
+}
+
+/* Estilos Clientes */ 
+
+.btnRegistrarNuevo{
+    padding: 10px 14px 10px 14px;
+    margin-bottom: 2%;
+}
+
+
+/* Estilos Detalle Servicio */ 
+
+.detalleservicioslabel{
+    padding: 14px 10px 14px 10px;
+    color: white;
+    font-size: 15px;
+
+}
+@media only screen and (max-width: 600px) 
+{
+
+    /* Pagina Principal */ 
+    #rolusuario{
+         display: none;
+    }
+
+    .h3{
+        text-align: center;
+    }
+
+    #capturarrol{
+        display: none;
+    }
+    
+    /* Estilos Cliente */ 
+    #btnRegistrarCliente{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Estilos Global */ 
+    #search{
+        display: none;
+    }
+
+    .modificar{
+        margin-bottom: 10px;
+    }
+
+    .test{
+        margin-bottom: 10px;
+    }
+
+    /* Estilos Nuevo Servicio */ 
+
+    #mostraridservicio{
+        margin: auto;
+    }
+
+    #nombres{
+        margin-bottom: 4%;
+    }
+
+    #botonBuscarCliente{
+        margin-bottom: 4%;
+    }
+
+    #guardarServicioyTickets{
+        margin-right: 5%;
+    }
+
+    .mas{
+        margin-bottom: 10px;
+    }
+
+    .menos{
+        margin-bottom: 10px;
+    }
+
+    .card-body{
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1.25rem;
+        overflow: auto;
+    }
+
+    #tablacliente2_wrapper{
+        overflow: auto;
+    }
+
+    /* Estilos de Moficar Servicio Entrada */
+     
+    #dni{
+        margin-top: 4%;
+        
+    } 
+
+    .apellidosmodificar{
+        margin-bottom: 8%;
+    }
+    
+
+    #telefono{
+        margin-bottom: 4%;
+    }
+
+    .topbar.navbar-light .navbar-nav .nav-item .nav-link {
+        color: #d1d3e2;
+        display: none;
+    }
+
+    .contendor_foto{
+        margin-bottom: 5%;
+    }
+
+    .CostoMaquina{
+        text-align: center;
+        font-size: 14.4px;
+    }
+
+    .letra{
+        font-size: 12px;
+    }
+
+    .costoenergia{
+        margin-top: auto;
+    }
+
+    .contenedorfechaybuscador{
+        margin-bottom: 20px;
+    }
+
+}
+/* Estilos de Moficar Servicio Entrada */
+
+@media only screen and (min-width: 600px) {
+
+    #capturarrol{
+        display: none;
+    }
+
+    #mostraridservicio{
+        margin: auto;
+    }
+
+    #nombres{
+        margin-bottom: 4%;
+    }
+
+    #botonBuscarCliente{
+        margin-bottom: 4%;
+    }
+
+    .modificar{
+        margin-bottom: 10px;
+    }
+
+    .test{
+        margin-bottom: 10px;
+    }
+
+    #rolusuario{
+        display: none;
+    }
+
+    .h3{
+        margin: auto;
+        text-align: center;
+    }
+
+    .apellidosmodificar{
+        margin-bottom: 4%;
+    }
+
+    .dnimoficar{
+        margin-bottom: 4%;       
+    }
+
+    .telefonomodificar{
+        margin-bottom: 2%;
+    }
+
+    .mas{
+        margin-bottom: 10px;
+    }
+
+    .menos{
+        margin-bottom: 10px;
+    }
+    
+
+    .contendor_foto{
+        margin-bottom: 5%;
+    }
+
+    .CostoMaquina{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .letra{
+        font-size: 15px;
+    }
+    
+    .CostoMaquina{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .contenedorfechaybuscador{
+        margin-bottom: 20px;
+    }
+
+    .TitulodeListaReportes{
+        text-align: center ;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .sidebar.toggled {
+        overflow: visible;
+        width: 6.5rem!important;
+    }
+
+    .sidebar.toggleds .nav-item .nav-link {
+        text-align: center;
+        padding: .75rem 1rem;
+        width: 6.5rem;
+    }
+
+    .sidebar #sidebarToggle{
+        display: none;
+    }
+    
+
+    .medio{
+        margin: auto;
+    }
+
+    .guardarmodificar{
+        margin-top: auto;
+    }
+
+    .contendor_foto{
+        margin-bottom: 5%;
+    }
+
+    .CostoMaquina{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .contedorsuavisante{
+        margin: auto;
+    }
+
+    .letra{
+        font-size: 15px;
+    }
+
+    .contenedorfechaybuscador{
+        margin-bottom: 20px;
+    }
+
+    .regresar{
+        margin-top: auto;
+    }
+
+    .generarReportePDF{
+        margin-top: auto;
+    }
+
+    .TitulodeListaReportes{
+        text-align: center ;
+    }
+}
+
+
+@media (min-width: 992px)
+{
+    .d-lg-inline {
+        display: inline!important;
+    }
+
+    .contendor_foto{
+        margin-bottom: 8%;
+    }
+
+    .CostoMaquina{
+        text-align: center;
+    }
+
+    .contenedorfechaybuscador{
+        margin-bottom: 20px;
+    }
+    
+    .regresar{
+        margin-top: auto;
+    }
+
+    .generarReportePDF{
+        margin-top: auto;
+    }
+    .TitulodeListaReportes{
+        text-align: center ;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .sidebar #sidebarToggle{
+        display: inline;
+    }
+
+    .sidebar.estirar {
+        overflow: visible;
+        width: 22rem!important;
+    }
+
+    .sidebar .nav-item .nav-link {
+        display: block; 
+        width: 100%;
+        text-align: left;
+        padding: 1rem;
+        width: 14rem;
+    }
+    .sidebar.estirar .nav-item .nav-link span {
+        font-size: .9rem;
+        display: inline;
+    }
+
+    .sidebar.estirar .nav-item .nav-link {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 1rem;
+        width: 18rem;
+        font-size: 22px;
+    }
+
+    .contendor_foto{
+        margin-bottom: 8%;
+    }
+
+    .CostoMaquina{
+        text-align: center;
+    }
+   
+    .regresar{
+        margin-top: auto;
+    }
+    
+    .TitulodeListaReportes{
+        text-align: center ;
+    }
+
+    .generarReportePDF{
+        margin-top: auto;
+    }
+
+    
+    
+}

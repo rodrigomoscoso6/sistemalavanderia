@@ -1,0 +1,83 @@
+#logo{
+    margin-bottom: 10px;
+}
+
+.img-fluid{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -60px;
+}
+
+.ruc{
+    margin-left: 18px;
+}
+
+.direccion{
+    margin-left: -5px;
+}
+
+.fechayhoraentrada{
+    margin-left: -10px;
+}
+
+.codigoServicio{
+    margin-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+
+.Nombreyapellido{
+    margin-left: 8px;
+}
+
+.dni{
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin-left: -40px;
+    font-size: 8.5px;
+    margin-bottom: 5px;
+}
+
+#datos{
+    font-size: 11px;
+}
+
+.fechaentrega{
+    margin-left: 7px;
+}
+
+.horaentrega{
+     margin-left: 22px;
+}
+
+.nServicio{
+    margin-left: -30px;
+}
+
+.estadoServicio{
+    padding-top: 3px;
+    margin-left: 10px;
+}
+
+.importetotal{
+    margin-left: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+   
+}
+
+#graciasporsupreferencia{   
+    margin-left: -8px;
+    font-size: 13px; 
+    margin-top: 12px;
+    font-family: cursive;
+}
+
+/* Estilos en mpdf dereportesporfechahtml */
+

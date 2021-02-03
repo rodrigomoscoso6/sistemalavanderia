@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     
+}   
+.imagenlogo{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -20px;
+    
+}
+
+h1{
+    margin-top: -60px;
+    text-align: center;
+    
+}
+
+.main-container{
+    width: 100%;
+    
+}
+
+table{
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 15px;
+}
+
+.datscabezera{   
+    background-color:#4e73df;;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+.contenedor_encabezado{
+    display: flex;
+}
+
+.totaltotal{
+    text-align: right;
+}
